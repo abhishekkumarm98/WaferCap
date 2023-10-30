@@ -10,7 +10,7 @@
 * Sklearn 1.2.2
 * scipy 1.11.3
 * tqdm 4.66.1
-* opencv-python 4.8.1.78 
+* opencv-python 4.8.0
 * GPU : Tesla T4
 
 
