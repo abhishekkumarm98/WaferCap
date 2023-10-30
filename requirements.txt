@@ -1,0 +1,8 @@
+numpy==1.23.5
+pandas==1.5.3
+torch==2.1.0+cu118
+scikit-learn==1.2.2
+scipy==1.11.3
+tqdm==4.66.1
+opencv-python==4.8.0
+
