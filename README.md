@@ -69,7 +69,7 @@ python main.py --epoch 4 --augment 1 --percentSeenCls 25 --splitRatio '8:2'
 
 #### Split ratio = 8:2, Data Augmentation set to True, with 50% seen classes
 ```
-!python main.py --epoch 5 --augment 1 --percentSeenCls 50 --splitRatio '8:2'
+python main.py --epoch 5 --augment 1 --percentSeenCls 50 --splitRatio '8:2'
 ```
 
 #### Split ratio = 8:2, Data Augmentation set to True, with 75% seen classes
