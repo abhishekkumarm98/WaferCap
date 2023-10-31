@@ -23,7 +23,7 @@
 pip install -r requirements.txt
 ```
 
-### To download WM-811k dataset, click here (https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map)
+### [To download WM-811k dataset, click here][1]
 
 ### To generate the results
 
@@ -82,6 +82,8 @@ python main.py --epoch 15 --augment 1 --percentSeenCls 75 --splitRatio '8:2'
 
 
 
+
+[1]: https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map
 
 
 
