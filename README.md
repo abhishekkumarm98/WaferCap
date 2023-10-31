@@ -23,7 +23,7 @@
 pip install -r requirements.txt
 ```
 
-### [To download WM-811k dataset, click here][1]
+### To download WM-811k dataset, [click here][1]
 
 ### To generate the results
 
