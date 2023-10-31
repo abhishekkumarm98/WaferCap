@@ -19,43 +19,43 @@
 
 ### To install the necessary modules
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ### To generate the results
 
 ### CLOSED-WORLD SETTING
 
 #### Split ratio = 8:1:1, Data Augmentation set to True, with 100% seen classes
-'''
+```
 python main.py --epoch 10 --augment 1 --percentSeenCls 100 --splitRatio '8:1:1'
-'''
+```
 
 #### Split ratio = 8:1:1, Data Augmentation set to False, with 100% seen classes
-'''
+```
 python main.py --epoch 7 --augment 0 --percentSeenCls 100 --splitRatio '8:1:1'
-'''
+```
 
 #### Split ratio = 7:3, Data Augmentation set to True, with 100% seen classes
-'''
+```
 python main.py --epoch 14 --augment 1 --percentSeenCls 100 --splitRatio '7:3'
-'''
+```
 
 #### Split ratio = 7:3, Data Augmentation set to False, with 100% seen classes
-'''
+```
 python main.py --epoch 8 --augment 0 --percentSeenCls 100 --splitRatio '7:3'
-'''
+```
 
 #### Split ratio = 8:2, Data Augmentation set to True, with 100% seen classes
-'''
+```
 python main.py --epoch 10 --augment 1 --percentSeenCls 100 --splitRatio '8:2'
-'''
+```
 
 #### Split ratio = 8:2, Data Augmentation set to False, with 100% seen classes
-'''
+```
 python main.py --epoch 9 --augment 0 --percentSeenCls 100 --splitRatio '8:2'
-'''
+```
 
 
 
@@ -63,19 +63,19 @@ python main.py --epoch 9 --augment 0 --percentSeenCls 100 --splitRatio '8:2'
 
 
 #### Split ratio = 8:2, Data Augmentation set to True, with 25% seen classes
-'''
+```
 python main.py --epoch 4 --augment 1 --percentSeenCls 25 --splitRatio '8:2' 
-'''
+```
 
 #### Split ratio = 8:2, Data Augmentation set to True, with 50% seen classes
-'''
+```
 !python main.py --epoch 5 --augment 1 --percentSeenCls 50 --splitRatio '8:2'
-'''
+```
 
-# Split ratio = 8:2, Data Augmentation set to True, with 75% seen classes
-'''
+#### Split ratio = 8:2, Data Augmentation set to True, with 75% seen classes
+```
 python main.py --epoch 15 --augment 1 --percentSeenCls 75 --splitRatio '8:2'
-'''
+```
 
 
 
