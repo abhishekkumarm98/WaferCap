@@ -312,6 +312,16 @@ class Dataset:
         
 
     def Transformations(self, angle, img):
+
+        """
+        A transformed image via bijective function
+
+        In the context of transforming an image, a bijective function refers to a mapping between two sets of pixels (before and after the transformation) where every pixel in the
+        source image is uniquely paired with a pixel in the target image, and vice versa. This ensures that the transformation is both injective (one-to-one) and surjective (onto),
+        meaning that no two pixels in the source image map to the same pixel in the target image, and every pixel in the target image corresponds to exactly one pixel in the source
+        image.
+
+        """
         
         t1 = transforms.Compose([transforms.ToTensor(), transforms.RandomRotation(angle), transforms.RandomHorizontalFlip(),])
         t2 = transforms.Compose([transforms.ToTensor(), transforms.RandomRotation(angle),])
