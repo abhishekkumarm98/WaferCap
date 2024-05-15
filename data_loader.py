@@ -188,7 +188,8 @@ class Dataset:
                   X_train_aug += X_aug
                   y_train_aug += y_aug
                 
-                
+                  print("Class:", cls, "Done!")
+                  
                 indices_cls_8 = np.where(np.array(y_train) == 8)[0]
                 for ix in indices_cls_8:
                   X_train_aug.append(X_train[ix])
