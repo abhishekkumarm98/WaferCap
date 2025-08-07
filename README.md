@@ -89,7 +89,22 @@ python main.py --epoch 15 --augment 1 --percentSeenCls 75 --splitRatio '8:2'
 
 
 
+## Citation
 
+If you find our work useful, please cite our paper.
+```
+@INPROCEEDINGS{10538764,
+  author={Mishra, Abhishek and Shaik, Mohammad Ershad and Lingamoorthy, Anush and Kumar, Suman and Das, Anup and Kandasamy, Nagarajan and Touba, Nur A.},
+  booktitle={2024 IEEE 42nd VLSI Test Symposium (VTS)}, 
+  title={WaferCap: Open Classification of Wafer Map Patterns using Deep Capsule Network}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Training;Semiconductor device modeling;Integrated circuit synthesis;Pattern classification;Computer architecture;Very large scale integration;Benchmark testing;wafer map pattern classification;capsule network;open world classification},
+  doi={10.1109/VTS60656.2024.10538764}}
+
+```
 
 
 
